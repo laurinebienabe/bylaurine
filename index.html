@@ -1,1 +1,86 @@
-fgfgfgfg
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intranet Entreprise – Prêt-à-Porter</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md px-6 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-gray-800">Intranet – Maison Mode</h1>
+    <div class="flex items-center gap-4">
+      <span class="text-gray-600">Bonjour, Employé</span>
+      <button class="bg-black text-white px-4 py-2 rounded-lg text-sm">Déconnexion</button>
+    </div>
+  </header>
+
+  <div class="flex">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-black text-white min-h-screen p-6">
+      <nav class="space-y-4">
+        <a href="#" class="block hover:text-gray-300">🏠 Tableau de bord</a>
+        <a href="#" class="block hover:text-gray-300">👕 Produits</a>
+        <a href="#" class="block hover:text-gray-300">📦 Commandes</a>
+        <a href="#" class="block hover:text-gray-300">🛒 Boutique en ligne</a>
+        <a href="#" class="block hover:text-gray-300">👥 Employés</a>
+        <a href="#" class="block hover:text-gray-300">📊 Statistiques</a>
+        <a href="#" class="block hover:text-gray-300">⚙️ Paramètres</a>
+      </nav>
+    </aside>
+
+    <!-- Main content -->
+    <main class="flex-1 p-8">
+      <!-- Dashboard cards -->
+      <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h2 class="text-sm text-gray-500">Commandes du jour</h2>
+          <p class="text-3xl font-bold">128</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h2 class="text-sm text-gray-500">Chiffre d'affaires</h2>
+          <p class="text-3xl font-bold">€12 450</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h2 class="text-sm text-gray-500">Produits en stock</h2>
+          <p class="text-3xl font-bold">1 842</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h2 class="text-sm text-gray-500">Employés actifs</h2>
+          <p class="text-3xl font-bold">32</p>
+        </div>
+      </section>
+
+      <!-- Sections -->
+      <section class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-4">Dernières commandes</h3>
+          <ul class="space-y-2 text-sm">
+            <li>#CMD-1045 – 3 articles – €210</li>
+            <li>#CMD-1044 – 1 article – €79</li>
+            <li>#CMD-1043 – 5 articles – €340</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="text-xl font-semibold mb-4">Accès rapide</h3>
+          <div class="grid grid-cols-2 gap-4">
+            <button class="bg-gray-900 text-white py-3 rounded-lg">Ajouter un produit</button>
+            <button class="bg-gray-900 text-white py-3 rounded-lg">Voir la boutique</button>
+            <button class="bg-gray-900 text-white py-3 rounded-lg">Gérer les stocks</button>
+            <button class="bg-gray-900 text-white py-3 rounded-lg">Support interne</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center py-4 text-sm text-gray-500 mt-8">
+    © 2026 Maison Mode – Intranet interne
+  </footer>
+
+</body>
+</html>
